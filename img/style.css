@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
-    /* overflow: hidden; */
+    overflow-x: hidden;
 }
 
 .container{
@@ -70,7 +70,7 @@ border-radius: 30px;
 
 #maincontainer{
     padding-top: 50px;
-    min-height: calc(100vh - 600px);
+    min-height: calc(100vh-200px);
 }
 
 #maincontainer, h2{
@@ -147,6 +147,7 @@ input{
     margin-left: auto;
     order: 2;
     padding-right: 20px;
+    overflow: hidden;
 }
 
 .footer li{
@@ -227,6 +228,10 @@ a:link {
 /* Responsive Time */
 @media only screen and (max-width: 767px) {
 
+*{
+    overflow-y: scroll;
+}
+    
     .plate{
         width: 100%;
     } 
@@ -247,6 +252,62 @@ a:link {
          .footer li{
             font-size: 0.90em;
          }
+
+         #maincontainer{
+            padding-top: 50px;
+            min-height: 80vh;
+        }
+
+/* About Page Responsiveness */
+.aboutsec{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #3897f0;
+    min-height: 100vh;
+}
+
+.aboutheader{
+    /* padding-top: 100px; */
+    font-size: 2.5em;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.aboutpar{
+    font-size: 1.25em;
+    font-weight: 300;
+    width: 60vw;
+    margin: 0 auto;
+    color: #ffffff;
+}
+
+.aboutlogo{
+    width: 60%;
+    margin: 50px auto;
+    height: auto;
+}
+
+.aboutbtn{
+    border-radius:42px;
+    border-style: none;
+	display:inline-block;
+	cursor:pointer;
+    background-color: white;
+    font-weight: 800;
+	font-size: 1em;
+	padding: 15px 40px;
+    text-decoration:none;
+    margin-top: 50px;
+}
+
+.aboutbtn a{
+    color: #3897f0;
+}
+
 
 
 }
