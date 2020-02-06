@@ -99,6 +99,8 @@ border-radius: 30px;
 .error{
     display: none;
     color: red;
+    padding-top: 25px;
+    font-size: 1.5em;
 }
 
 select{
