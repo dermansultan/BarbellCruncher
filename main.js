@@ -88,3 +88,9 @@ addPlates();
 userWeight.addEventListener("change" , weightCheck);
 barbellWeight.addEventListener("change", barbellCheck);
 calcBtn.addEventListener("click", calculateBtn);
+userWeight.addEventListener("keydown" , (e) => {
+    if (e.key === 'Enter') {
+        calculateBtn(e);
+        e.preventDefault();
+    }
+});
