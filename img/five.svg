@@ -1,0 +1,11 @@
+<svg id="five" xmlns="http://www.w3.org/2000/svg" width="99" height="99" viewBox="0 0 99 99">
+  <g id="Ellipse_16" data-name="Ellipse 16" fill="#535353" stroke="#707070" stroke-width="16">
+    <circle cx="49.5" cy="49.5" r="49.5" stroke="none"/>
+    <circle cx="49.5" cy="49.5" r="41.5" fill="none"/>
+  </g>
+  <text id="_5" data-name="5" transform="translate(34 32)" fill="#12fa7e" font-size="27" font-family="OpenSans-ExtraBold, Open Sans" font-weight="800"><tspan x="8.09" y="29">5</tspan></text>
+  <g id="Ellipse_17" data-name="Ellipse 17" transform="translate(20 20)" fill="none" stroke="#11ff80" stroke-width="2" stroke-dasharray="24 3">
+    <circle cx="29.5" cy="29.5" r="29.5" stroke="none"/>
+    <circle cx="29.5" cy="29.5" r="28.5" fill="none"/>
+  </g>
+</svg>

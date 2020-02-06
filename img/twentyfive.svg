@@ -1,0 +1,11 @@
+<svg id="twentyfive" xmlns="http://www.w3.org/2000/svg" width="158" height="158" viewBox="0 0 158 158">
+  <g id="Ellipse_12" data-name="Ellipse 12" fill="#535353" stroke="#707070" stroke-width="16">
+    <circle cx="79" cy="79" r="79" stroke="none"/>
+    <circle cx="79" cy="79" r="71" fill="none"/>
+  </g>
+  <text id="_25" data-name="25" transform="translate(50 50)" fill="#12fa7e" font-size="38" font-family="OpenSans-ExtraBold, Open Sans" font-weight="800"><tspan x="6.734" y="41">25</tspan></text>
+  <g id="Ellipse_13" data-name="Ellipse 13" transform="translate(31 32)" fill="none" stroke="#11ff80" stroke-width="2" stroke-dasharray="24 3">
+    <ellipse cx="47.5" cy="47" rx="47.5" ry="47" stroke="none"/>
+    <ellipse cx="47.5" cy="47" rx="46.5" ry="46" fill="none"/>
+  </g>
+</svg>

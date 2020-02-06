@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="/img/style.css">
+    <title>Barbell Cruncher</title>
+</head>
+<body>
+    <container class="master">
+    <!-- Container-->
+    <section id="platecontainer">
+        <!--Plates -->
+        <div id="fortyfive">
+            <img src="/img/fortyfive.svg" class="plate">
+            <div id="result45" class="resulttext"></div>
+        </div> 
+        <div id="thirtyfive">
+            <img src="/img/thirtyfive.svg" class="plate">
+            <div id="result35" class="resulttext"></div>
+        </div> 
+
+        <div id="twentyfive">
+            <img src="/img/twentyfive.svg" class="plate">
+            <div id="result25" class="resulttext"></div>
+        </div> 
+        <div id="ten">
+            <img src="/img/ten.svg" class="plate">
+            <div id="result10" class="resulttext"></div>
+        </div> 
+        <div id="five">
+            <img src="/img/five.svg" class="plate">
+            <div id="result5" class="resulttext"></div>
+        </div> 
+        <div id="twopointfive">
+            <img src="/img/twopointfive.svg" class="plate">
+            <div id="result2.5" class="resulttext"></div>
+        </div> 
+        </div> 
+    </section>
+<!--Ui Elements Container-->
+    <section id="maincontainer">
+<h2 class="bweightselect">Select the barbell's weight:</h2>
+<select id="barbellweight" class="barbellweight">
+    <option value="45">45 lbs</option>
+    <option value="55">55 lbs</option>
+</select>
+<form>
+    <h2 class="enterWeightHeader">Enter the weight you want to be on the bar in pounds:</h2>
+    <input class="userinput" min="1" max="999" id="userInput" type="number" value="">
+</form>
+<h2 class="error" id="error">Error: Cannot load the barbell using that specific weight <span>(try using multiples of 2.5)</span></h2>
+<button class="calcbtn" id="calcbtn">Calculate</button>
+    </section>
+</container>
+
+<div class="footer">
+<img src="img/logo.png" class="logo" alt="Barbell Cruncher">
+<ul class="right">
+<li><a href="about.html">About</a></li>
+<li><a href="#">GitHub</a></li>
+</ul>
+</div>
+</body>
+<script src="main.js"></script>
+</html>
